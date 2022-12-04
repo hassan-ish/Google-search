@@ -137,7 +137,12 @@ nav > div:last-child{
         margin-left: 5px;
     }
 }
-
+/* phone scrool */
+@media (max-width:400px) {
+    nav {
+        overflow-x: scroll;
+    }
+}
 
 
 /*The three icons in far left */
